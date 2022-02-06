@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato&family=Lora:ital,wght@1,600&family=Montserrat:ital@1&family=Nunito:ital,wght@1,500&family=Roboto&family=Roboto+Condensed&family=Source+Serif+4:wght@400;800&family=Varela&family=Varela+Round&display=swap');
+*{
+    font-family: 'Varela', sans-serif;
+}
+.banner{
+    background-color: #fafafc;
+    color: #092048;
+}
+.banner .skyColor {
+    text-align: left;
+}
+.banner h4 {
+    text-align: left;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: #0c0a5d;
+    padding: 5px;
+
+}
+.para {
+    color: #6b6b6b;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.skyColor{
+    color: #0dcaf0;
+}
+.btn {
+    padding: 15px 20px;
+    margin: 5px;
+    border-radius: 30px;
+}
+.about-me{
+    background-image: url("images/about.png");
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+.about-me .skyColor {
+    text-align: left;
+}
+.about-img {
+    background-color: #e7eff9;
+    background-image : linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%,.8);
+    
+}
+.me-icon {
+    padding-top: 20px;
+}
+.me-icon li {
+    list-style: none;
+}
+.about-me i {
+    margin-right: 10px;
+    color: #0dcaf0;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.my-interest {
+    padding: 10px 0;
+}
+.my-interest i {
+    font-size: 25px;
+
+}
+.my-interest  h5 {
+    margin-left: 10px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+.choose-me {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f1f4fb;
+}
+
+.exp-content {
+    margin: 40px;
+}
+.indicator{
+    width: 100%;
+    height: 10px;
+    background-color: #0dcaf0;
+}
+.qualification {
+    text-align: center;
+    padding: 60px 0;
+    background-image: url("/images/qualification.png");
+    background-repeat: no-repeat;
+}
+.qualification h1 {
+    padding-bottom: 40px;
+}
+.qualification h3{
+    color: #0c0a5d;
+    font-weight: 800;
+
+}
+.qualification ul li,h3 {
+    list-style: none;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.qualification ul li h5{
+    color: #0c0a5d;
+    font-weight: 800;
+
+}
+.qualification ul li h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+.qualification ul li span {
+    font-size: 12px;
+}
+.offer {
+    padding-top: 60px;
+}
+.qualification .card{
+    margin: 30px;
+    border-radius: 15px 50px 30px 5px;
+    display: flex;
+    position: relative;
+    padding: 65px 10px 10px 10px;
+    text-align: left;
+}
+.qualification .card h5{
+    font-weight: 800;
+
+}
+.qualification .offer-icon{
+    position: absolute;
+    bottom: 170px;
+    left: 50px;
+}
+.qualification .card i {
+    padding: 30px;
+    background-color: #0dcaf0;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.works{
+    padding: 60px 0;
+    background-color: #f1f4fb;
+    text-align: center;
+}
+.works h1 {
+    padding-bottom: 50px;
+}
+.card {
+    transition: transform 1s;
+}
+.card:hover{
+    display: block;
+    background-color: rgba(13, 202, 240);
+    color: white;
+    cursor: pointer;
+}
+.card:hover .qualification .card i {
+    background-color: white;
+    color: rgba(13, 202, 240);
+}
+.contact{
+    padding: 60px 0;
+    background-image: url("images/footer-bg.png");
+    text-align: center;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+}
+textarea{
+    margin: 10px;
+    padding: 10px;
+}
+
+.input-area h1, h4 {
+    text-align: center;
+}
+.input-area{
+    text-align: left;
+}
+.contact-icon {
+    padding: 15px;
+    background-color: #0dcaf0;
+    border-radius: 50%;
+    color: white;
+}
+.contact-content {
+    
+    text-align: left;
+}
+.contact-content h6{
+    font-weight: 800;
+}
